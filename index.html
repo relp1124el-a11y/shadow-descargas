@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trip Rate SHADOW - Descargas</title>
+<style>
+  :root { --bg:#10131a; --card:#1a1f2b; --txt:#e8ecf3; --dim:#9aa4b5; --acc:#3d8bff; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f3f5f9; --card:#fff; --txt:#161a22; --dim:#5a6475; } }
+  body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--txt); }
+  main { max-width:520px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { font-size:24px; margin:8px 0 4px; }
+  .card { background:var(--card); border-radius:14px; padding:18px; margin-top:16px; }
+  .dim { color:var(--dim); font-size:14px; }
+  a.btn { display:block; text-align:center; background:var(--acc); color:#fff; text-decoration:none;
+          padding:14px; border-radius:10px; font-weight:600; margin-top:12px; }
+  a.btn.sec { background:transparent; border:2px solid var(--acc); color:var(--acc); }
+  ol { padding-left:20px; margin:8px 0 0; } li { margin:6px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Trip Rate SHADOW</h1>
+  <div class="dim" id="version">Buscando la versión actual…</div>
+
+  <div class="card">
+    <b>Ya tengo la app: actualizar</b>
+    <div class="dim">Descarga e instala encima. No pierdes tus datos.</div>
+    <a class="btn" id="apk" href="#">Descargar APK</a>
+  </div>
+
+  <div class="card">
+    <b>Primera vez: instalar desde el computador</b>
+    <ol class="dim">
+      <li>Conecta el celular al computador con el cable USB.</li>
+      <li>Descarga y abre el instalador (Windows).</li>
+      <li>Sigue lo que diga la ventana negra y acepta los avisos en el celular.</li>
+    </ol>
+    <a class="btn sec" href="INSTALAR_SHADOW.bat" download>Descargar instalador (.bat)</a>
+  </div>
+</main>
+<script>
+  // CAMBIAR: usuario y repositorio de GitHub
+  var USUARIO = "relp1124el-a11y", REPO = "shadow-descargas";
+  var apk = "https://github.com/" + USUARIO + "/" + REPO + "/releases/latest/download/SHADOW.apk";
+  document.getElementById("apk").href = apk;
+  fetch("https://api.github.com/repos/" + USUARIO + "/" + REPO + "/releases/latest")
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var f = d.published_at ? new Date(d.published_at).toLocaleDateString("es-CO") : "";
+      document.getElementById("version").textContent = "Versión actual: " + d.tag_name + (f ? " · publicada el " + f : "");
+    })
+    .catch(function () { document.getElementById("version").textContent = ""; });
+</script>
+</body>
+</html>
