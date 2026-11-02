@@ -1,9 +1,9 @@
 {
-  "versionCode": 263,
-  "versionName": "5.12.32",
-  "notas": "Menos avisos falsos de ofertas perdidas y de Uber desconectada",
-  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.32/SHADOW.apk",
-  "sha256": "6b50cbe704733a27068c61ab9bf2b3214bdd00c73d86076ea6ca8a2c318ea416",
+  "versionCode": 264,
+  "versionName": "5.12.33",
+  "notas": "menos falsas alarmas",
+  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.33/SHADOW.apk",
+  "sha256": "364f3bc0a8e7f67ecb9fc8bc2c43cbe2026c580ecb0663d102aedd9ccd7627b7",
   "porcentaje": 10,
   "modelos": []
 }
