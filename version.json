@@ -1,9 +1,9 @@
 {
-  "versionCode": 264,
-  "versionName": "5.12.33",
-  "notas": "menos falsas alarmas",
-  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.33/SHADOW.apk",
-  "sha256": "364f3bc0a8e7f67ecb9fc8bc2c43cbe2026c580ecb0663d102aedd9ccd7627b7",
+  "versionCode": 266,
+  "versionName": "5.12.34",
+  "notas": "",
+  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.34/SHADOW.apk",
+  "sha256": "95f1ffeb1b36f9fc4757fa0f1fe81b127b21d212c5d6f81f7bebabe3541c2b52",
   "porcentaje": 10,
   "modelos": []
 }
