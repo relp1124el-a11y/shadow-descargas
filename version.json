@@ -1,10 +1,12 @@
 {
-  "versionCode": 281,
-  "versionName": "5.12.45",
-  "notas": "",
-  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.45/SHADOW.apk",
-  "sha256": "64dbe62c78ddd05e4b7e24cf5c632198e86718e5fa310278adac2faa05850b48",
-  "porcentaje": 100,
-  "modelos": [],
-  "commit": "6f6c237645c8ef1d55b23eb2ce85e1aaaed7d776"
+  "versionCode": 284,
+  "versionName": "5.12.46",
+  "notas": "Uber: llegada, destino y fin se leen dos veces seguidas sin esperar; 'Cobrar el pago' ya no se confunde con el destino en viajes en efectivo. DataLock: suelta a DiDi apenas Uber vuelve a su inicio y no suelta a Uber entre dos rentas de DiDi seguidas. Sonido en avisos de turno, captura y licencia.",
+  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.46/SHADOW.apk",
+  "sha256": "2ded665a8a5947f9fdb6400ac35d3f3266facb006628665994f35a57edd6ad0f",
+  "porcentaje": 10,
+  "modelos": [
+    "SM-A145M"
+  ],
+  "commit": "47462f7bfea5b4852ac615edc605a44f2fe245ee"
 }
