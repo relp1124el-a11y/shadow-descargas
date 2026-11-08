@@ -1,12 +1,12 @@
 {
-  "versionCode": 289,
-  "versionName": "5.12.51",
+  "versionCode": 290,
+  "versionName": "5.12.53",
   "notas": "",
-  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.51/SHADOW.apk",
-  "sha256": "3a97923bb297965bbabc4e34faa16504a8b1a4f797b1563e8d2d19455f5ba4b2",
-  "porcentaje": 100,
+  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.53/SHADOW.apk",
+  "sha256": "fa6580e9d6776fc6c4c40413673949c3ec2cdb1c3fda7a4cb5bab3f62a162840",
+  "porcentaje": 0,
   "modelos": [
     "SM-A145M"
   ],
-  "commit": "1522da135bc8b0cd03996ab5188f8d80d46702d4"
+  "commit": "9d2e6128a840d8aa851ad9d63d4a6b947ec9ff2e"
 }
