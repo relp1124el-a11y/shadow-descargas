@@ -1,10 +1,10 @@
 {
-  "versionCode": 305,
-  "versionName": "5.12.68",
+  "versionCode": 306,
+  "versionName": "5.12.69",
   "notas": "",
-  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.68/SHADOW.apk",
-  "sha256": "c1b75536e67a0cab5a47fe93aa54d862a2e3a010f0cf7e74e5b47a2b8c640510",
+  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.69/SHADOW.apk",
+  "sha256": "bb47f95f7765c992c8a2ee95e4bb84f04a8620db4ba1d120400cbfcc8e56547c",
   "porcentaje": 100,
   "modelos": [],
-  "commit": "b8d90356b1ccf612b7c9fe26843b0047a409bc8e"
+  "commit": "8322c267feb54d664c231cc67bbb27b292c0ef69"
 }
