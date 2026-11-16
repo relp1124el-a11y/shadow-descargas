@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Trip Rate SHADOW - Descargas</title>
+<title>Trip Rate - Descargas</title>
 <style>
   :root { --bg:#10131a; --card:#1a1f2b; --txt:#e8ecf3; --dim:#9aa4b5; --acc:#3d8bff; }
   @media (prefers-color-scheme: light) { :root { --bg:#f3f5f9; --card:#fff; --txt:#161a22; --dim:#5a6475; } }
@@ -20,30 +20,32 @@
 </head>
 <body>
 <main>
-  <h1>Trip Rate SHADOW</h1>
+  <h1>Trip Rate</h1>
   <div class="dim" id="version">Buscando la versión actual…</div>
 
   <div class="card">
-    <b>Ya tengo la app: actualizar</b>
-    <div class="dim">Descarga e instala encima. No pierdes tus datos.</div>
-    <a class="btn" id="apk" href="#">Descargar APK</a>
+    <b>Desde el celular</b>
+    <div class="dim">Descarga e instala. Si ya la tienes, se instala encima y no pierdes tus datos. Al abrirla eliges
+      <b>Solo DataLock</b> o <b>Trip Rate completo</b>, y la app te guía con los permisos.</div>
+    <a class="btn" id="apk" href="#">Descargar la app (APK)</a>
   </div>
 
   <div class="card">
-    <b>Primera vez: instalar desde el computador</b>
+    <b>Desde el computador (Windows)</b>
     <ol class="dim">
-      <li>Conecta el celular al computador con el cable USB.</li>
-      <li>Descarga y abre el instalador (Windows).</li>
-      <li>Sigue lo que diga la ventana negra y acepta los avisos en el celular.</li>
+      <li>Descarga el instalador y descomprime el zip.</li>
+      <li>Abre <b>INSTALAR_SHADOW.bat</b>: sale una ventana con los pasos.</li>
+      <li>Elige qué quieres usar, conecta el celular con el cable y sigue la ventana. Ella reconoce tu celular, te muestra
+        cómo activar la depuración USB y da los permisos sola.</li>
     </ol>
-    <a class="btn sec" href="INSTALAR_SHADOW.bat" download>Descargar instalador (.bat)</a>
+    <a class="btn sec" id="inst" href="#">Descargar instalador para PC (.zip)</a>
   </div>
 </main>
 <script>
-  // CAMBIAR: usuario y repositorio de GitHub
   var USUARIO = "relp1124el-a11y", REPO = "shadow-descargas";
-  var apk = "https://github.com/" + USUARIO + "/" + REPO + "/releases/latest/download/SHADOW.apk";
-  document.getElementById("apk").href = apk;
+  var base = "https://github.com/" + USUARIO + "/" + REPO + "/releases/latest/download/";
+  document.getElementById("apk").href = base + "SHADOW.apk";
+  document.getElementById("inst").href = base + "Instalador_PC.zip";
   fetch("https://api.github.com/repos/" + USUARIO + "/" + REPO + "/releases/latest")
     .then(function (r) { return r.json(); })
     .then(function (d) {
