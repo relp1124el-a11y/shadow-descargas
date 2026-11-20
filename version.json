@@ -1,11 +1,11 @@
 {
-  "versionCode": 334,
-  "versionName": "5.12.97",
-  "notas": "",
-  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.97/SHADOW.apk",
-  "instalador": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.97/Instalador_PC.zip",
-  "sha256": "77695afc8cb10370adf7e0e298ff0f7953a09683c804770c51fb879dda736c51",
+  "versionCode": 335,
+  "versionName": "5.12.98",
+  "notas": "mejora en lecturas de indriver",
+  "apk": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.98/SHADOW.apk",
+  "instalador": "https://github.com/relp1124el-a11y/shadow-descargas/releases/download/v5.12.98/Instalador_PC.zip",
+  "sha256": "c1f64bc51021cbaba7b923220522b2e7fa16f38e382bcf371e08fa2bb2c5b07c",
   "porcentaje": 100,
   "modelos": [],
-  "commit": "c04a7dcafaefcf6c7b161e1e16302cc271f154a9"
+  "commit": "34f0ced8648fefb45abd1fe1039a5b216d056f1a"
 }
