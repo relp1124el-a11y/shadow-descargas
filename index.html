@@ -33,19 +33,19 @@
   <div class="card">
     <b>Desde el computador (Windows)</b>
     <ol class="dim">
-      <li>Descarga el instalador y descomprime el zip.</li>
-      <li>Abre <b>INSTALAR_SHADOW.bat</b>: sale una ventana con los pasos.</li>
+      <li>Descarga el instalador y ábrelo (<b>INSTALAR_SHADOW.bat</b>): sale una ventana con los pasos. Si Windows
+        avisa que protegió el equipo, toca <b>Más información</b> y luego <b>Ejecutar de todas formas</b>.</li>
       <li>Elige qué quieres usar, conecta el celular con el cable y sigue la ventana. Ella reconoce tu celular, te muestra
         cómo activar la depuración USB y da los permisos sola.</li>
     </ol>
-    <a class="btn sec" id="inst" href="#">Descargar instalador para PC (.zip)</a>
+    <a class="btn sec" id="inst" href="#">Descargar instalador para PC</a>
   </div>
 </main>
 <script>
   var USUARIO = "relp1124el-a11y", REPO = "shadow-descargas";
   var base = "https://github.com/" + USUARIO + "/" + REPO + "/releases/latest/download/";
   document.getElementById("apk").href = base + "SHADOW.apk";
-  document.getElementById("inst").href = base + "Instalador_PC.zip";
+  document.getElementById("inst").href = base + "INSTALAR_SHADOW.bat";
   fetch("https://api.github.com/repos/" + USUARIO + "/" + REPO + "/releases/latest")
     .then(function (r) { return r.json(); })
     .then(function (d) {
